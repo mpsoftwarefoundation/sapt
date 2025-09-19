@@ -29,10 +29,10 @@ sapt update && sapt upgrade
 ### Option 1 (via apt)
 Download the `.deb` file from our [releases page](https://github.com/mpsoftwarefoundation/sapt/releases/latest).
 
-Double click the `.deb` file to install, or use `apt`:
+Double click the `.deb` file to install, or use `dpkg`:
 
 ```bash
-sudo apt install path/to/sapt.deb
+dpkg -i path/to/sapt.deb
 ```
 
 ### Option 2 (via Cargo)
