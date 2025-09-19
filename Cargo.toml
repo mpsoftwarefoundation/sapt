@@ -1,6 +1,25 @@
 [package]
 name = "sapt"
+license = "GPL v3"
+authors = ["MP Software Foundation"]
+description = "A thin wrapper combining sudo and apt into one universal command."
 version = "0.1.0"
 edition = "2024"
+
+[package.metadata.deb]
+maintainer = "Keller Hydle <kellerhydle@gmail.com>"
+depends = "sudo, apt"
+priority = "optional"
+section = "utils"
+assets = [
+    ["target/release/sapt", "usr/bin/", "755"],
+]
+extended-description = """\
+`sapt` makes using apt easier by automatically combining it with sudo.
+
+Examples:
+  sapt install curl
+  sapt purge vim
+"""
 
 [dependencies]
