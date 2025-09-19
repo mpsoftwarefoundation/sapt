@@ -26,10 +26,18 @@ sapt update && sapt upgrade
 
 ## Installation
 
+### Option 1 (via apt)
+Install with `apt`:
+
+```bash
+sudo apt install sapt
+```
+
+### Option 2 (via Cargo)
 Clone and build with Cargo:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/sapt.git
+git clone https://github.com/mpsoftwarefoundation/sapt.git
 cd sapt
 cargo build --release
 ```
