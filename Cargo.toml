@@ -15,7 +15,7 @@ assets = [
     ["target/release/sapt", "usr/bin/", "755"],
 ]
 extended-description = """\
-`sapt` makes using apt easier by automatically combining it with sudo.
+sapt makes using apt easier by automatically combining it with sudo.
 
 Examples:
   sapt install curl
