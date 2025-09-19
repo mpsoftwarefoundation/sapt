@@ -1,4 +1,4 @@
-# `sapt`
+<img src="assets/sapt_icon.svg" width="125">
 
 Combine `sudo` and `apt` into one universal command.
 
